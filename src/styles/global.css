@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    background: #FFF9F9
+}
+
+body, input, button, textarea {
+    font: 600 18px Yanone Kaffeesatz, serif;
+}
+
+.leaflet-container a {
+	/* visibility: hidden; */
+    font-size:1px;
+
+}

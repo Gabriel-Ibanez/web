@@ -1,0 +1,102 @@
+
+#page-map {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    /* display: flex; */
+    /* background-image: url("../../images/imgFundo.svg"); */
+    /* background-size: cover; */
+    /* background-position: center; */
+  }
+
+  #page-map aside {
+    position: absolute;
+    z-index: 500;
+    color: #9d585e;
+    width: 200px;
+    height: 300px;
+    border-radius: 0 0 50px 0;
+    background: linear-gradient(135.31deg,#E9D8D9 5%, #B26868 155%);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-color: #9D585E;
+    border-width: 0 8px 8px 0;
+    border-style: solid;
+  }
+
+  #page-map aside h2{
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  #page-map aside header img{
+    margin-left: 30px;
+  }
+
+  #page-map aside footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  #page-map .map-popup .leaflet-popup-content-wrapper{
+    background:rgba(255,255,255,0.8);
+    border-radius: 15px;
+  }
+
+  #page-map .map-popup .leaflet-popup-content{
+    color:#9D445E;
+    font: 600 22px Yanone Kaffeesatz, serif;
+    margin: 5px 5px 5px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #page-map .map-popup .leaflet-popup-content a {
+    width: 40px;
+    height: 40px;
+    background: #E9D8D9 ;
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #page-map .map-popup .leaflet-popup-tip-container{
+    display: none;
+  }
+
+
+
+  #botaoCriar {
+      position: absolute;
+      z-index: 500;
+      width: 90px;
+      height: 90px;
+      bottom: 40px;
+      right: 90px;
+      background: url('../../images/botaoCriar.svg') no-repeat center center;
+      transition: 0.5s;
+  }
+
+  #botaoCriar:hover {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    bottom: 40px;
+    right: 90px;
+    background: url('../../images/botaoCriarHover.svg') no-repeat center center;
+    transition: 0.5s;
+}
+  
